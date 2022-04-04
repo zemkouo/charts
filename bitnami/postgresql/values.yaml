@@ -645,7 +645,7 @@ primary:
 readReplicas:
   ## @param readReplicas.replicaCount Number of PostgreSQL read only replicas
   ##
-  replicaCount: 5
+  replicaCount: 3
   ## @param readReplicas.extraEnvVars Array with extra environment variables to add to PostgreSQL read only nodes
   ## e.g:
   ## extraEnvVars:
